@@ -1,0 +1,8 @@
+- model: easy_ship.servicelevels
+  pk: 1
+  fields:
+    name: Ground
+- model: easy_ship.servicelevels
+  pk: 2
+  fields:
+    name: 3 Day Select

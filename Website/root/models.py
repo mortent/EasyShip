@@ -1,5 +1,6 @@
 from django.db import models
-
+import datetime
+from django.forms import ModelForm
 class ServiceLevel(models.Model):
 	name = models.CharField(max_length=100)
 	
@@ -23,4 +24,13 @@ class Rate(models.Model):
 	def __unicode__(self):
 		return "Weight: " + self.weight + ", Service level: " + self.service_level + ", Zone: " + self.zone
 
-	
+class Shipment(models.Model):
+	date=models.DateField("Date", default=datetime.date.today)
+ 	service_level = models.ForeignKey(ServiceLevel)
+	weight = models.IntegerField()
+        zone_number = models.CharField(max_length=3)
+        price = models.IntegerField()
+class ShipmentForm(ModelForm):
+	class Meta:
+		model=Shipment
+

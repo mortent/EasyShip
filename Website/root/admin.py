@@ -1,5 +1,5 @@
 from django.contrib import admin
-from easy_ship.models import *
+from root.models import *
 
 admin.site.register(ServiceLevel)
 admin.site.register(Zone)

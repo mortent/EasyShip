@@ -1,4 +1,8 @@
 # Django settings for EasyShip project.
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_DIR = os.path.abspath(os.path.join(BASE_DIR, '..'))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -12,7 +16,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/home/feyzahas/EasyShip/Website/database.db',                      # Or path to database file if using sqlite3.
+        'NAME': os.path.join(PROJECT_DIR, 'database.db'),  # Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -87,6 +91,14 @@ TEMPLATE_LOADERS = (
 #     'django.template.loaders.eggs.Loader',
 )
 
+
+TEMPLATE_DIRS = (
+    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+   os.path.join(PROJECT_DIR, 'root/templates')
+)
+
 MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -101,12 +113,6 @@ ROOT_URLCONF = 'EasyShip.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'EasyShip.wsgi.application'
-
-TEMPLATE_DIRS = (
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
-   '/home/feyzahas/EasyShip/Website/root/templates')
 
 INSTALLED_APPS = (
     'django.contrib.auth',
@@ -150,3 +156,4 @@ LOGGING = {
         },
     }
 }
+

@@ -2,4 +2,4 @@
 *~
 
 *.db
-settings.py
+Website/EasyShip/settings_local.py

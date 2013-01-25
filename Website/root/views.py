@@ -1,15 +1,34 @@
-from django.http import HttpResponse
-from django.shortcuts import render, get_list_or_404, get_object_or_404
-from root.models import ServiceLevel, Zone
-
-def index(request):
-    service_levels = get_list_or_404(ServiceLevel)
-    return render(request, 'index.html', {'service_levels': service_levels})
-
+from django.shortcuts import render
+from root.models import ServiceLevel, Zone, Rate
+from root.forms import SearchForm
 
 def search(request):
-    service_level = request.GET['service_level']
-    weight = request.GET['weight']
-    zip_code = request.GET['zip_code']
-    zone = get_object_or_404(Zone, service_level=service_level, zip_code=zip_code)
-    return render(request, 'search_result.html', {'zone': zone})
+    rate = None
+    if request.method == 'POST':
+        form = SearchForm(request.POST)
+        if form.is_valid():
+            rate = find_rate(form)
+    else:
+        form = SearchForm()
+
+    return render(request, 'search.html', {'form': form, 'show_result': request.method=='POST',
+                                           'rate': rate})
+
+
+def find_rate(form):
+    zone = find_zone(form)
+    if zone is None:
+        return None
+    rate_query_set = Rate.objects.filter(weight=form.cleaned_data['weight'], service_level=zone.service_level,
+        zone_number=zone.zone_number)
+    if not rate_query_set:
+        return None
+    return rate_query_set[0]
+
+
+def find_zone(form):
+    zone_query_set = Zone.objects.filter(service_level=form.cleaned_data['service_level'],
+        zip_code=form.cleaned_data['zip_code'])
+    if not zone_query_set:
+        return None
+    return zone_query_set[0]

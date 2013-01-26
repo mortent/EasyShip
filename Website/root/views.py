@@ -4,14 +4,15 @@ from root.forms import SearchForm
 
 def search(request):
     rate = None
-    if request.method == 'POST':
-        form = SearchForm(request.POST)
+    is_submit = request.GET.has_key('submit')
+    if is_submit:
+        form = SearchForm(request.GET)
         if form.is_valid():
             rate = find_rate(form)
     else:
         form = SearchForm()
 
-    return render(request, 'search.html', {'form': form, 'show_result': request.method=='POST',
+    return render(request, 'search.html', {'form': form, 'show_result': is_submit,
                                            'rate': rate})
 
 

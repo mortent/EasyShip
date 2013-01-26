@@ -35,7 +35,4 @@ class Shipment(models.Model):
     zone_number = models.CharField(max_length=3)
     price = models.IntegerField()
 
-class ShipmentForm(ModelForm):
-    class Meta:
-        model = Shipment
 

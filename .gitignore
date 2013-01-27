@@ -4,3 +4,4 @@
 *.db
 Website/EasyShip/settings_local.py
 .idea
+.DS_Store

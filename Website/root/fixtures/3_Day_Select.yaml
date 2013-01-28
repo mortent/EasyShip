@@ -1,0 +1,1960 @@
+- model: root.rate
+  pk: 500
+  fields:
+    weight: 1
+    service_level: 2
+    zone_number: 302
+    price: 9.70
+- model: root.rate
+  pk: 501
+  fields:
+    weight: 2
+    service_level: 2
+    zone_number: 302
+    price: 10.10
+- model: root.rate
+  pk: 502
+  fields:
+    weight: 3
+    service_level: 2
+    zone_number: 302
+    price: 10.80
+- model: root.rate
+  pk: 503
+  fields:
+    weight: 4
+    service_level: 2
+    zone_number: 302
+    price: 11.80
+- model: root.rate
+  pk: 504
+  fields:
+    weight: 5
+    service_level: 2
+    zone_number: 302
+    price: 12.60
+- model: root.rate
+  pk: 505
+  fields:
+    weight: 6
+    service_level: 2
+    zone_number: 302
+    price: 13.45
+- model: root.rate
+  pk: 506
+  fields:
+    weight: 7
+    service_level: 2
+    zone_number: 302
+    price: 13.90
+- model: root.rate
+  pk: 507
+  fields:
+    weight: 8
+    service_level: 2
+    zone_number: 302
+    price: 14.60
+- model: root.rate
+  pk: 508
+  fields:
+    weight: 9
+    service_level: 2
+    zone_number: 302
+    price: 15.20
+- model: root.rate
+  pk: 509
+  fields:
+    weight: 10
+    service_level: 2
+    zone_number: 302
+    price: 15.90
+- model: root.rate
+  pk: 510
+  fields:
+    weight: 11
+    service_level: 2
+    zone_number: 302
+    price: 17.20
+- model: root.rate
+  pk: 511
+  fields:
+    weight: 12
+    service_level: 2
+    zone_number: 302
+    price: 18.10
+- model: root.rate
+  pk: 512
+  fields:
+    weight: 13
+    service_level: 2
+    zone_number: 302
+    price: 19.10
+- model: root.rate
+  pk: 513
+  fields:
+    weight: 14
+    service_level: 2
+    zone_number: 302
+    price: 19.95
+- model: root.rate
+  pk: 514
+  fields:
+    weight: 15
+    service_level: 2
+    zone_number: 302
+    price: 20.15
+- model: root.rate
+  pk: 515
+  fields:
+    weight: 16
+    service_level: 2
+    zone_number: 302
+    price: 21.25
+- model: root.rate
+  pk: 516
+  fields:
+    weight: 17
+    service_level: 2
+    zone_number: 302
+    price: 21.95
+- model: root.rate
+  pk: 517
+  fields:
+    weight: 18
+    service_level: 2
+    zone_number: 302
+    price: 22.70
+- model: root.rate
+  pk: 518
+  fields:
+    weight: 19
+    service_level: 2
+    zone_number: 302
+    price: 23.45
+- model: root.rate
+  pk: 519
+  fields:
+    weight: 20
+    service_level: 2
+    zone_number: 302
+    price: 23.65
+- model: root.rate
+  pk: 520
+  fields:
+    weight: 21
+    service_level: 2
+    zone_number: 302
+    price: 24.95
+- model: root.rate
+  pk: 521
+  fields:
+    weight: 22
+    service_level: 2
+    zone_number: 302
+    price: 25.55
+- model: root.rate
+  pk: 522
+  fields:
+    weight: 23
+    service_level: 2
+    zone_number: 302
+    price: 26.30
+- model: root.rate
+  pk: 523
+  fields:
+    weight: 24
+    service_level: 2
+    zone_number: 302
+    price: 27.15
+- model: root.rate
+  pk: 524
+  fields:
+    weight: 25
+    service_level: 2
+    zone_number: 302
+    price: 27.75
+- model: root.rate
+  pk: 525
+  fields:
+    weight: 26
+    service_level: 2
+    zone_number: 302
+    price: 29.25
+- model: root.rate
+  pk: 526
+  fields:
+    weight: 27
+    service_level: 2
+    zone_number: 302
+    price: 30.35
+- model: root.rate
+  pk: 527
+  fields:
+    weight: 28
+    service_level: 2
+    zone_number: 302
+    price: 31.15
+- model: root.rate
+  pk: 528
+  fields:
+    weight: 29
+    service_level: 2
+    zone_number: 302
+    price: 31.80
+- model: root.rate
+  pk: 529
+  fields:
+    weight: 30
+    service_level: 2
+    zone_number: 302
+    price: 32.05
+- model: root.rate
+  pk: 530
+  fields:
+    weight: 31
+    service_level: 2
+    zone_number: 302
+    price: 32.85
+- model: root.rate
+  pk: 531
+  fields:
+    weight: 32
+    service_level: 2
+    zone_number: 302
+    price: 33.50
+- model: root.rate
+  pk: 532
+  fields:
+    weight: 33
+    service_level: 2
+    zone_number: 302
+    price: 34.40
+- model: root.rate
+  pk: 533
+  fields:
+    weight: 34
+    service_level: 2
+    zone_number: 302
+    price: 35.10
+- model: root.rate
+  pk: 534
+  fields:
+    weight: 35
+    service_level: 2
+    zone_number: 302
+    price: 35.75
+- model: root.rate
+  pk: 535
+  fields:
+    weight: 36
+    service_level: 2
+    zone_number: 302
+    price: 36.80
+- model: root.rate
+  pk: 536
+  fields:
+    weight: 37
+    service_level: 2
+    zone_number: 302
+    price: 37.50
+- model: root.rate
+  pk: 537
+  fields:
+    weight: 38
+    service_level: 2
+    zone_number: 302
+    price: 38.00
+- model: root.rate
+  pk: 538
+  fields:
+    weight: 39
+    service_level: 2
+    zone_number: 302
+    price: 38.60
+- model: root.rate
+  pk: 539
+  fields:
+    weight: 40
+    service_level: 2
+    zone_number: 302
+    price: 38.70
+- model: root.rate
+  pk: 540
+  fields:
+    weight: 1
+    service_level: 2
+    zone_number: 303
+    price: 11.15
+- model: root.rate
+  pk: 541
+  fields:
+    weight: 2
+    service_level: 2
+    zone_number: 303
+    price: 11.60
+- model: root.rate
+  pk: 542
+  fields:
+    weight: 3
+    service_level: 2
+    zone_number: 303
+    price: 12.35
+- model: root.rate
+  pk: 543
+  fields:
+    weight: 4
+    service_level: 2
+    zone_number: 303
+    price: 13.30
+- model: root.rate
+  pk: 544
+  fields:
+    weight: 5
+    service_level: 2
+    zone_number: 303
+    price: 13.90
+- model: root.rate
+  pk: 545
+  fields:
+    weight: 6
+    service_level: 2
+    zone_number: 303
+    price: 15.40
+- model: root.rate
+  pk: 546
+  fields:
+    weight: 7
+    service_level: 2
+    zone_number: 303
+    price: 16.65
+- model: root.rate
+  pk: 547
+  fields:
+    weight: 8
+    service_level: 2
+    zone_number: 303
+    price: 18.10
+- model: root.rate
+  pk: 548
+  fields:
+    weight: 9
+    service_level: 2
+    zone_number: 303
+    price: 18.80
+- model: root.rate
+  pk: 549
+  fields:
+    weight: 10
+    service_level: 2
+    zone_number: 303
+    price: 18.85
+- model: root.rate
+  pk: 550
+  fields:
+    weight: 11
+    service_level: 2
+    zone_number: 303
+    price: 21.45
+- model: root.rate
+  pk: 551
+  fields:
+    weight: 12
+    service_level: 2
+    zone_number: 303
+    price: 22.50
+- model: root.rate
+  pk: 552
+  fields:
+    weight: 13
+    service_level: 2
+    zone_number: 303
+    price: 23.60
+- model: root.rate
+  pk: 553
+  fields:
+    weight: 14
+    service_level: 2
+    zone_number: 303
+    price: 24.85
+- model: root.rate
+  pk: 554
+  fields:
+    weight: 15
+    service_level: 2
+    zone_number: 303
+    price: 25.70
+- model: root.rate
+  pk: 555
+  fields:
+    weight: 16
+    service_level: 2
+    zone_number: 303
+    price: 26.50
+- model: root.rate
+  pk: 556
+  fields:
+    weight: 17
+    service_level: 2
+    zone_number: 303
+    price: 27.15
+- model: root.rate
+  pk: 557
+  fields:
+    weight: 18
+    service_level: 2
+    zone_number: 303
+    price: 28.25
+- model: root.rate
+  pk: 558
+  fields:
+    weight: 19
+    service_level: 2
+    zone_number: 303
+    price: 29.10
+- model: root.rate
+  pk: 559
+  fields:
+    weight: 20
+    service_level: 2
+    zone_number: 303
+    price: 30.15
+- model: root.rate
+  pk: 560
+  fields:
+    weight: 21
+    service_level: 2
+    zone_number: 303
+    price: 30.90
+- model: root.rate
+  pk: 561
+  fields:
+    weight: 22
+    service_level: 2
+    zone_number: 303
+    price: 32.05
+- model: root.rate
+  pk: 562
+  fields:
+    weight: 23
+    service_level: 2
+    zone_number: 303
+    price: 32.85
+- model: root.rate
+  pk: 563
+  fields:
+    weight: 24
+    service_level: 2
+    zone_number: 303
+    price: 33.80
+- model: root.rate
+  pk: 564
+  fields:
+    weight: 25
+    service_level: 2
+    zone_number: 303
+    price: 35.35
+- model: root.rate
+  pk: 565
+  fields:
+    weight: 26
+    service_level: 2
+    zone_number: 303
+    price: 36.35
+- model: root.rate
+  pk: 566
+  fields:
+    weight: 27
+    service_level: 2
+    zone_number: 303
+    price: 37.50
+- model: root.rate
+  pk: 567
+  fields:
+    weight: 28
+    service_level: 2
+    zone_number: 303
+    price: 38.55
+- model: root.rate
+  pk: 568
+  fields:
+    weight: 29
+    service_level: 2
+    zone_number: 303
+    price: 39.35
+- model: root.rate
+  pk: 569
+  fields:
+    weight: 30
+    service_level: 2
+    zone_number: 303
+    price: 39.70
+- model: root.rate
+  pk: 570
+  fields:
+    weight: 31
+    service_level: 2
+    zone_number: 303
+    price: 41.85
+- model: root.rate
+  pk: 571
+  fields:
+    weight: 32
+    service_level: 2
+    zone_number: 303
+    price: 42.80
+- model: root.rate
+  pk: 572
+  fields:
+    weight: 33
+    service_level: 2
+    zone_number: 303
+    price: 43.50
+- model: root.rate
+  pk: 573
+  fields:
+    weight: 34
+    service_level: 2
+    zone_number: 303
+    price: 44.70
+- model: root.rate
+  pk: 574
+  fields:
+    weight: 35
+    service_level: 2
+    zone_number: 303
+    price: 45.90
+- model: root.rate
+  pk: 575
+  fields:
+    weight: 36
+    service_level: 2
+    zone_number: 303
+    price: 46.95
+- model: root.rate
+  pk: 576
+  fields:
+    weight: 37
+    service_level: 2
+    zone_number: 303
+    price: 47.85
+- model: root.rate
+  pk: 577
+  fields:
+    weight: 38
+    service_level: 2
+    zone_number: 303
+    price: 47.90
+- model: root.rate
+  pk: 578
+  fields:
+    weight: 39
+    service_level: 2
+    zone_number: 303
+    price: 47.95
+- model: root.rate
+  pk: 579
+  fields:
+    weight: 40
+    service_level: 2
+    zone_number: 303
+    price: 48.40
+- model: root.rate
+  pk: 580
+  fields:
+    weight: 1
+    service_level: 2
+    zone_number: 304
+    price: 11.85
+- model: root.rate
+  pk: 581
+  fields:
+    weight: 2
+    service_level: 2
+    zone_number: 304
+    price: 12.45
+- model: root.rate
+  pk: 582
+  fields:
+    weight: 3
+    service_level: 2
+    zone_number: 304
+    price: 13.80
+- model: root.rate
+  pk: 583
+  fields:
+    weight: 4
+    service_level: 2
+    zone_number: 304
+    price: 14.55
+- model: root.rate
+  pk: 584
+  fields:
+    weight: 5
+    service_level: 2
+    zone_number: 304
+    price: 15.35
+- model: root.rate
+  pk: 585
+  fields:
+    weight: 6
+    service_level: 2
+    zone_number: 304
+    price: 17.50
+- model: root.rate
+  pk: 586
+  fields:
+    weight: 7
+    service_level: 2
+    zone_number: 304
+    price: 18.85
+- model: root.rate
+  pk: 587
+  fields:
+    weight: 8
+    service_level: 2
+    zone_number: 304
+    price: 20.35
+- model: root.rate
+  pk: 588
+  fields:
+    weight: 9
+    service_level: 2
+    zone_number: 304
+    price: 21.65
+- model: root.rate
+  pk: 589
+  fields:
+    weight: 10
+    service_level: 2
+    zone_number: 304
+    price: 22.85
+- model: root.rate
+  pk: 590
+  fields:
+    weight: 11
+    service_level: 2
+    zone_number: 304
+    price: 24.35
+- model: root.rate
+  pk: 591
+  fields:
+    weight: 12
+    service_level: 2
+    zone_number: 304
+    price: 25.45
+- model: root.rate
+  pk: 592
+  fields:
+    weight: 13
+    service_level: 2
+    zone_number: 304
+    price: 26.75
+- model: root.rate
+  pk: 593
+  fields:
+    weight: 14
+    service_level: 2
+    zone_number: 304
+    price: 28.25
+- model: root.rate
+  pk: 594
+  fields:
+    weight: 15
+    service_level: 2
+    zone_number: 304
+    price: 29.50
+- model: root.rate
+  pk: 595
+  fields:
+    weight: 16
+    service_level: 2
+    zone_number: 304
+    price: 30.50
+- model: root.rate
+  pk: 596
+  fields:
+    weight: 17
+    service_level: 2
+    zone_number: 304
+    price: 31.75
+- model: root.rate
+  pk: 597
+  fields:
+    weight: 18
+    service_level: 2
+    zone_number: 304
+    price: 32.95
+- model: root.rate
+  pk: 598
+  fields:
+    weight: 19
+    service_level: 2
+    zone_number: 304
+    price: 34.15
+- model: root.rate
+  pk: 599
+  fields:
+    weight: 20
+    service_level: 2
+    zone_number: 304
+    price: 35.75
+- model: root.rate
+  pk: 600
+  fields:
+    weight: 21
+    service_level: 2
+    zone_number: 304
+    price: 37.15
+- model: root.rate
+  pk: 601
+  fields:
+    weight: 22
+    service_level: 2
+    zone_number: 304
+    price: 38.60
+- model: root.rate
+  pk: 602
+  fields:
+    weight: 23
+    service_level: 2
+    zone_number: 304
+    price: 39.95
+- model: root.rate
+  pk: 603
+  fields:
+    weight: 24
+    service_level: 2
+    zone_number: 304
+    price: 41.00
+- model: root.rate
+  pk: 604
+  fields:
+    weight: 25
+    service_level: 2
+    zone_number: 304
+    price: 42.35
+- model: root.rate
+  pk: 605
+  fields:
+    weight: 26
+    service_level: 2
+    zone_number: 304
+    price: 43.80
+- model: root.rate
+  pk: 606
+  fields:
+    weight: 27
+    service_level: 2
+    zone_number: 304
+    price: 45.40
+- model: root.rate
+  pk: 607
+  fields:
+    weight: 28
+    service_level: 2
+    zone_number: 304
+    price: 46.50
+- model: root.rate
+  pk: 608
+  fields:
+    weight: 29
+    service_level: 2
+    zone_number: 304
+    price: 47.85
+- model: root.rate
+  pk: 609
+  fields:
+    weight: 30
+    service_level: 2
+    zone_number: 304
+    price: 49.30
+- model: root.rate
+  pk: 610
+  fields:
+    weight: 31
+    service_level: 2
+    zone_number: 304
+    price: 50.50
+- model: root.rate
+  pk: 611
+  fields:
+    weight: 32
+    service_level: 2
+    zone_number: 304
+    price: 52.20
+- model: root.rate
+  pk: 612
+  fields:
+    weight: 33
+    service_level: 2
+    zone_number: 304
+    price: 53.35
+- model: root.rate
+  pk: 613
+  fields:
+    weight: 34
+    service_level: 2
+    zone_number: 304
+    price: 54.60
+- model: root.rate
+  pk: 614
+  fields:
+    weight: 35
+    service_level: 2
+    zone_number: 304
+    price: 56.10
+- model: root.rate
+  pk: 615
+  fields:
+    weight: 36
+    service_level: 2
+    zone_number: 304
+    price: 57.45
+- model: root.rate
+  pk: 616
+  fields:
+    weight: 37
+    service_level: 2
+    zone_number: 304
+    price: 58.45
+- model: root.rate
+  pk: 617
+  fields:
+    weight: 38
+    service_level: 2
+    zone_number: 304
+    price: 60.10
+- model: root.rate
+  pk: 618
+  fields:
+    weight: 39
+    service_level: 2
+    zone_number: 304
+    price: 61.20
+- model: root.rate
+  pk: 619
+  fields:
+    weight: 40
+    service_level: 2
+    zone_number: 304
+    price: 61.35
+- model: root.rate
+  pk: 620
+  fields:
+    weight: 1
+    service_level: 2
+    zone_number: 305
+    price: 12.45
+- model: root.rate
+  pk: 621
+  fields:
+    weight: 2
+    service_level: 2
+    zone_number: 305
+    price: 12.55
+- model: root.rate
+  pk: 622
+  fields:
+    weight: 3
+    service_level: 2
+    zone_number: 305
+    price: 13.85
+- model: root.rate
+  pk: 623
+  fields:
+    weight: 4
+    service_level: 2
+    zone_number: 305
+    price: 15.60
+- model: root.rate
+  pk: 624
+  fields:
+    weight: 5
+    service_level: 2
+    zone_number: 305
+    price: 17.05
+- model: root.rate
+  pk: 625
+  fields:
+    weight: 6
+    service_level: 2
+    zone_number: 305
+    price: 19.10
+- model: root.rate
+  pk: 626
+  fields:
+    weight: 7
+    service_level: 2
+    zone_number: 305
+    price: 20.50
+- model: root.rate
+  pk: 627
+  fields:
+    weight: 8
+    service_level: 2
+    zone_number: 305
+    price: 22.05
+- model: root.rate
+  pk: 628
+  fields:
+    weight: 9
+    service_level: 2
+    zone_number: 305
+    price: 23.80
+- model: root.rate
+  pk: 629
+  fields:
+    weight: 10
+    service_level: 2
+    zone_number: 305
+    price: 25.60
+- model: root.rate
+  pk: 630
+  fields:
+    weight: 11
+    service_level: 2
+    zone_number: 305
+    price: 27.00
+- model: root.rate
+  pk: 631
+  fields:
+    weight: 12
+    service_level: 2
+    zone_number: 305
+    price: 28.60
+- model: root.rate
+  pk: 632
+  fields:
+    weight: 13
+    service_level: 2
+    zone_number: 305
+    price: 30.30
+- model: root.rate
+  pk: 633
+  fields:
+    weight: 14
+    service_level: 2
+    zone_number: 305
+    price: 32.10
+- model: root.rate
+  pk: 634
+  fields:
+    weight: 15
+    service_level: 2
+    zone_number: 305
+    price: 33.50
+- model: root.rate
+  pk: 635
+  fields:
+    weight: 16
+    service_level: 2
+    zone_number: 305
+    price: 34.55
+- model: root.rate
+  pk: 636
+  fields:
+    weight: 17
+    service_level: 2
+    zone_number: 305
+    price: 36.20
+- model: root.rate
+  pk: 637
+  fields:
+    weight: 18
+    service_level: 2
+    zone_number: 305
+    price: 37.55
+- model: root.rate
+  pk: 638
+  fields:
+    weight: 19
+    service_level: 2
+    zone_number: 305
+    price: 38.95
+- model: root.rate
+  pk: 639
+  fields:
+    weight: 20
+    service_level: 2
+    zone_number: 305
+    price: 40.55
+- model: root.rate
+  pk: 640
+  fields:
+    weight: 21
+    service_level: 2
+    zone_number: 305
+    price: 41.95
+- model: root.rate
+  pk: 641
+  fields:
+    weight: 22
+    service_level: 2
+    zone_number: 305
+    price: 43.25
+- model: root.rate
+  pk: 642
+  fields:
+    weight: 23
+    service_level: 2
+    zone_number: 305
+    price: 44.55
+- model: root.rate
+  pk: 643
+  fields:
+    weight: 24
+    service_level: 2
+    zone_number: 305
+    price: 46.20
+- model: root.rate
+  pk: 644
+  fields:
+    weight: 25
+    service_level: 2
+    zone_number: 305
+    price: 47.80
+- model: root.rate
+  pk: 645
+  fields:
+    weight: 26
+    service_level: 2
+    zone_number: 305
+    price: 49.30
+- model: root.rate
+  pk: 646
+  fields:
+    weight: 27
+    service_level: 2
+    zone_number: 305
+    price: 50.95
+- model: root.rate
+  pk: 647
+  fields:
+    weight: 28
+    service_level: 2
+    zone_number: 305
+    price: 52.25
+- model: root.rate
+  pk: 648
+  fields:
+    weight: 29
+    service_level: 2
+    zone_number: 305
+    price: 53.60
+- model: root.rate
+  pk: 649
+  fields:
+    weight: 30
+    service_level: 2
+    zone_number: 305
+    price: 55.30
+- model: root.rate
+  pk: 650
+  fields:
+    weight: 31
+    service_level: 2
+    zone_number: 305
+    price: 56.55
+- model: root.rate
+  pk: 651
+  fields:
+    weight: 32
+    service_level: 2
+    zone_number: 305
+    price: 58.05
+- model: root.rate
+  pk: 652
+  fields:
+    weight: 33
+    service_level: 2
+    zone_number: 305
+    price: 59.65
+- model: root.rate
+  pk: 653
+  fields:
+    weight: 34
+    service_level: 2
+    zone_number: 305
+    price: 61.10
+- model: root.rate
+  pk: 654
+  fields:
+    weight: 35
+    service_level: 2
+    zone_number: 305
+    price: 62.60
+- model: root.rate
+  pk: 655
+  fields:
+    weight: 36
+    service_level: 2
+    zone_number: 305
+    price: 64.05
+- model: root.rate
+  pk: 656
+  fields:
+    weight: 37
+    service_level: 2
+    zone_number: 305
+    price: 65.50
+- model: root.rate
+  pk: 657
+  fields:
+    weight: 38
+    service_level: 2
+    zone_number: 305
+    price: 67.05
+- model: root.rate
+  pk: 658
+  fields:
+    weight: 39
+    service_level: 2
+    zone_number: 305
+    price: 68.55
+- model: root.rate
+  pk: 659
+  fields:
+    weight: 40
+    service_level: 2
+    zone_number: 305
+    price: 69.15
+- model: root.rate
+  pk: 660
+  fields:
+    weight: 1
+    service_level: 2
+    zone_number: 306
+    price: 14.15
+- model: root.rate
+  pk: 661
+  fields:
+    weight: 2
+    service_level: 2
+    zone_number: 306
+    price: 15.15
+- model: root.rate
+  pk: 662
+  fields:
+    weight: 3
+    service_level: 2
+    zone_number: 306
+    price: 17.55
+- model: root.rate
+  pk: 663
+  fields:
+    weight: 4
+    service_level: 2
+    zone_number: 306
+    price: 19.45
+- model: root.rate
+  pk: 664
+  fields:
+    weight: 5
+    service_level: 2
+    zone_number: 306
+    price: 22.05
+- model: root.rate
+  pk: 665
+  fields:
+    weight: 6
+    service_level: 2
+    zone_number: 306
+    price: 24.60
+- model: root.rate
+  pk: 666
+  fields:
+    weight: 7
+    service_level: 2
+    zone_number: 306
+    price: 27.30
+- model: root.rate
+  pk: 667
+  fields:
+    weight: 8
+    service_level: 2
+    zone_number: 306
+    price: 30.00
+- model: root.rate
+  pk: 668
+  fields:
+    weight: 9
+    service_level: 2
+    zone_number: 306
+    price: 32.15
+- model: root.rate
+  pk: 669
+  fields:
+    weight: 10
+    service_level: 2
+    zone_number: 306
+    price: 34.15
+- model: root.rate
+  pk: 670
+  fields:
+    weight: 11
+    service_level: 2
+    zone_number: 306
+    price: 36.45
+- model: root.rate
+  pk: 671
+  fields:
+    weight: 12
+    service_level: 2
+    zone_number: 306
+    price: 38.75
+- model: root.rate
+  pk: 672
+  fields:
+    weight: 13
+    service_level: 2
+    zone_number: 306
+    price: 41.15
+- model: root.rate
+  pk: 673
+  fields:
+    weight: 14
+    service_level: 2
+    zone_number: 306
+    price: 43.20
+- model: root.rate
+  pk: 674
+  fields:
+    weight: 15
+    service_level: 2
+    zone_number: 306
+    price: 45.55
+- model: root.rate
+  pk: 675
+  fields:
+    weight: 16
+    service_level: 2
+    zone_number: 306
+    price: 47.45
+- model: root.rate
+  pk: 676
+  fields:
+    weight: 17
+    service_level: 2
+    zone_number: 306
+    price: 49.35
+- model: root.rate
+  pk: 677
+  fields:
+    weight: 18
+    service_level: 2
+    zone_number: 306
+    price: 51.10
+- model: root.rate
+  pk: 678
+  fields:
+    weight: 19
+    service_level: 2
+    zone_number: 306
+    price: 52.85
+- model: root.rate
+  pk: 679
+  fields:
+    weight: 20
+    service_level: 2
+    zone_number: 306
+    price: 54.80
+- model: root.rate
+  pk: 680
+  fields:
+    weight: 21
+    service_level: 2
+    zone_number: 306
+    price: 57.45
+- model: root.rate
+  pk: 681
+  fields:
+    weight: 22
+    service_level: 2
+    zone_number: 306
+    price: 59.40
+- model: root.rate
+  pk: 682
+  fields:
+    weight: 23
+    service_level: 2
+    zone_number: 306
+    price: 61.85
+- model: root.rate
+  pk: 683
+  fields:
+    weight: 24
+    service_level: 2
+    zone_number: 306
+    price: 63.90
+- model: root.rate
+  pk: 684
+  fields:
+    weight: 25
+    service_level: 2
+    zone_number: 306
+    price: 65.70
+- model: root.rate
+  pk: 685
+  fields:
+    weight: 26
+    service_level: 2
+    zone_number: 306
+    price: 67.75
+- model: root.rate
+  pk: 686
+  fields:
+    weight: 27
+    service_level: 2
+    zone_number: 306
+    price: 69.55
+- model: root.rate
+  pk: 687
+  fields:
+    weight: 28
+    service_level: 2
+    zone_number: 306
+    price: 71.90
+- model: root.rate
+  pk: 688
+  fields:
+    weight: 29
+    service_level: 2
+    zone_number: 306
+    price: 74.00
+- model: root.rate
+  pk: 689
+  fields:
+    weight: 30
+    service_level: 2
+    zone_number: 306
+    price: 76.35
+- model: root.rate
+  pk: 690
+  fields:
+    weight: 31
+    service_level: 2
+    zone_number: 306
+    price: 78.70
+- model: root.rate
+  pk: 691
+  fields:
+    weight: 32
+    service_level: 2
+    zone_number: 306
+    price: 80.65
+- model: root.rate
+  pk: 692
+  fields:
+    weight: 33
+    service_level: 2
+    zone_number: 306
+    price: 83.00
+- model: root.rate
+  pk: 693
+  fields:
+    weight: 34
+    service_level: 2
+    zone_number: 306
+    price: 85.10
+- model: root.rate
+  pk: 694
+  fields:
+    weight: 35
+    service_level: 2
+    zone_number: 306
+    price: 87.00
+- model: root.rate
+  pk: 695
+  fields:
+    weight: 36
+    service_level: 2
+    zone_number: 306
+    price: 89.40
+- model: root.rate
+  pk: 696
+  fields:
+    weight: 37
+    service_level: 2
+    zone_number: 306
+    price: 91.25
+- model: root.rate
+  pk: 697
+  fields:
+    weight: 38
+    service_level: 2
+    zone_number: 306
+    price: 93.15
+- model: root.rate
+  pk: 698
+  fields:
+    weight: 39
+    service_level: 2
+    zone_number: 306
+    price: 95.35
+- model: root.rate
+  pk: 699
+  fields:
+    weight: 40
+    service_level: 2
+    zone_number: 306
+    price: 97.50
+- model: root.rate
+  pk: 700
+  fields:
+    weight: 1
+    service_level: 2
+    zone_number: 307
+    price: 14.75
+- model: root.rate
+  pk: 701
+  fields:
+    weight: 2
+    service_level: 2
+    zone_number: 307
+    price: 16.40
+- model: root.rate
+  pk: 702
+  fields:
+    weight: 3
+    service_level: 2
+    zone_number: 307
+    price: 18.40
+- model: root.rate
+  pk: 703
+  fields:
+    weight: 4
+    service_level: 2
+    zone_number: 307
+    price: 21.00
+- model: root.rate
+  pk: 704
+  fields:
+    weight: 5
+    service_level: 2
+    zone_number: 307
+    price: 23.15
+- model: root.rate
+  pk: 705
+  fields:
+    weight: 6
+    service_level: 2
+    zone_number: 307
+    price: 25.75
+- model: root.rate
+  pk: 706
+  fields:
+    weight: 7
+    service_level: 2
+    zone_number: 307
+    price: 29.10
+- model: root.rate
+  pk: 707
+  fields:
+    weight: 8
+    service_level: 2
+    zone_number: 307
+    price: 31.85
+- model: root.rate
+  pk: 708
+  fields:
+    weight: 9
+    service_level: 2
+    zone_number: 307
+    price: 34.95
+- model: root.rate
+  pk: 709
+  fields:
+    weight: 10
+    service_level: 2
+    zone_number: 307
+    price: 37.60
+- model: root.rate
+  pk: 710
+  fields:
+    weight: 11
+    service_level: 2
+    zone_number: 307
+    price: 40.30
+- model: root.rate
+  pk: 711
+  fields:
+    weight: 12
+    service_level: 2
+    zone_number: 307
+    price: 42.90
+- model: root.rate
+  pk: 712
+  fields:
+    weight: 13
+    service_level: 2
+    zone_number: 307
+    price: 45.15
+- model: root.rate
+  pk: 713
+  fields:
+    weight: 14
+    service_level: 2
+    zone_number: 307
+    price: 47.55
+- model: root.rate
+  pk: 714
+  fields:
+    weight: 15
+    service_level: 2
+    zone_number: 307
+    price: 49.55
+- model: root.rate
+  pk: 715
+  fields:
+    weight: 16
+    service_level: 2
+    zone_number: 307
+    price: 52.10
+- model: root.rate
+  pk: 716
+  fields:
+    weight: 17
+    service_level: 2
+    zone_number: 307
+    price: 54.70
+- model: root.rate
+  pk: 717
+  fields:
+    weight: 18
+    service_level: 2
+    zone_number: 307
+    price: 57.20
+- model: root.rate
+  pk: 718
+  fields:
+    weight: 19
+    service_level: 2
+    zone_number: 307
+    price: 59.55
+- model: root.rate
+  pk: 719
+  fields:
+    weight: 20
+    service_level: 2
+    zone_number: 307
+    price: 61.80
+- model: root.rate
+  pk: 720
+  fields:
+    weight: 21
+    service_level: 2
+    zone_number: 307
+    price: 64.00
+- model: root.rate
+  pk: 721
+  fields:
+    weight: 22
+    service_level: 2
+    zone_number: 307
+    price: 66.30
+- model: root.rate
+  pk: 722
+  fields:
+    weight: 23
+    service_level: 2
+    zone_number: 307
+    price: 68.45
+- model: root.rate
+  pk: 723
+  fields:
+    weight: 24
+    service_level: 2
+    zone_number: 307
+    price: 70.80
+- model: root.rate
+  pk: 724
+  fields:
+    weight: 25
+    service_level: 2
+    zone_number: 307
+    price: 73.20
+- model: root.rate
+  pk: 725
+  fields:
+    weight: 26
+    service_level: 2
+    zone_number: 307
+    price: 75.70
+- model: root.rate
+  pk: 726
+  fields:
+    weight: 27
+    service_level: 2
+    zone_number: 307
+    price: 78.35
+- model: root.rate
+  pk: 727
+  fields:
+    weight: 28
+    service_level: 2
+    zone_number: 307
+    price: 80.75
+- model: root.rate
+  pk: 728
+  fields:
+    weight: 29
+    service_level: 2
+    zone_number: 307
+    price: 83.15
+- model: root.rate
+  pk: 729
+  fields:
+    weight: 30
+    service_level: 2
+    zone_number: 307
+    price: 85.40
+- model: root.rate
+  pk: 730
+  fields:
+    weight: 31
+    service_level: 2
+    zone_number: 307
+    price: 87.90
+- model: root.rate
+  pk: 731
+  fields:
+    weight: 32
+    service_level: 2
+    zone_number: 307
+    price: 90.35
+- model: root.rate
+  pk: 732
+  fields:
+    weight: 33
+    service_level: 2
+    zone_number: 307
+    price: 92.70
+- model: root.rate
+  pk: 733
+  fields:
+    weight: 34
+    service_level: 2
+    zone_number: 307
+    price: 94.90
+- model: root.rate
+  pk: 734
+  fields:
+    weight: 35
+    service_level: 2
+    zone_number: 307
+    price: 97.30
+- model: root.rate
+  pk: 735
+  fields:
+    weight: 36
+    service_level: 2
+    zone_number: 307
+    price: 99.25
+- model: root.rate
+  pk: 736
+  fields:
+    weight: 37
+    service_level: 2
+    zone_number: 307
+    price: 101.25
+- model: root.rate
+  pk: 737
+  fields:
+    weight: 38
+    service_level: 2
+    zone_number: 307
+    price: 103.30
+- model: root.rate
+  pk: 738
+  fields:
+    weight: 39
+    service_level: 2
+    zone_number: 307
+    price: 105.20
+- model: root.rate
+  pk: 739
+  fields:
+    weight: 40
+    service_level: 2
+    zone_number: 307
+    price: 107.40
+- model: root.rate
+  pk: 740
+  fields:
+    weight: 1
+    service_level: 2
+    zone_number: 308
+    price: 16.50
+- model: root.rate
+  pk: 741
+  fields:
+    weight: 2
+    service_level: 2
+    zone_number: 308
+    price: 19.20
+- model: root.rate
+  pk: 742
+  fields:
+    weight: 3
+    service_level: 2
+    zone_number: 308
+    price: 21.70
+- model: root.rate
+  pk: 743
+  fields:
+    weight: 4
+    service_level: 2
+    zone_number: 308
+    price: 24.80
+- model: root.rate
+  pk: 744
+  fields:
+    weight: 5
+    service_level: 2
+    zone_number: 308
+    price: 27.80
+- model: root.rate
+  pk: 745
+  fields:
+    weight: 6
+    service_level: 2
+    zone_number: 308
+    price: 31.55
+- model: root.rate
+  pk: 746
+  fields:
+    weight: 7
+    service_level: 2
+    zone_number: 308
+    price: 34.65
+- model: root.rate
+  pk: 747
+  fields:
+    weight: 8
+    service_level: 2
+    zone_number: 308
+    price: 37.85
+- model: root.rate
+  pk: 748
+  fields:
+    weight: 9
+    service_level: 2
+    zone_number: 308
+    price: 40.75
+- model: root.rate
+  pk: 749
+  fields:
+    weight: 10
+    service_level: 2
+    zone_number: 308
+    price: 43.95
+- model: root.rate
+  pk: 750
+  fields:
+    weight: 11
+    service_level: 2
+    zone_number: 308
+    price: 47.10
+- model: root.rate
+  pk: 751
+  fields:
+    weight: 12
+    service_level: 2
+    zone_number: 308
+    price: 49.75
+- model: root.rate
+  pk: 752
+  fields:
+    weight: 13
+    service_level: 2
+    zone_number: 308
+    price: 52.75
+- model: root.rate
+  pk: 753
+  fields:
+    weight: 14
+    service_level: 2
+    zone_number: 308
+    price: 55.50
+- model: root.rate
+  pk: 754
+  fields:
+    weight: 15
+    service_level: 2
+    zone_number: 308
+    price: 58.65
+- model: root.rate
+  pk: 755
+  fields:
+    weight: 16
+    service_level: 2
+    zone_number: 308
+    price: 61.20
+- model: root.rate
+  pk: 756
+  fields:
+    weight: 17
+    service_level: 2
+    zone_number: 308
+    price: 64.00
+- model: root.rate
+  pk: 757
+  fields:
+    weight: 18
+    service_level: 2
+    zone_number: 308
+    price: 66.15
+- model: root.rate
+  pk: 758
+  fields:
+    weight: 19
+    service_level: 2
+    zone_number: 308
+    price: 68.50
+- model: root.rate
+  pk: 759
+  fields:
+    weight: 20
+    service_level: 2
+    zone_number: 308
+    price: 71.45
+- model: root.rate
+  pk: 760
+  fields:
+    weight: 21
+    service_level: 2
+    zone_number: 308
+    price: 73.85
+- model: root.rate
+  pk: 761
+  fields:
+    weight: 22
+    service_level: 2
+    zone_number: 308
+    price: 76.55
+- model: root.rate
+  pk: 762
+  fields:
+    weight: 23
+    service_level: 2
+    zone_number: 308
+    price: 79.05
+- model: root.rate
+  pk: 763
+  fields:
+    weight: 24
+    service_level: 2
+    zone_number: 308
+    price: 81.75
+- model: root.rate
+  pk: 764
+  fields:
+    weight: 25
+    service_level: 2
+    zone_number: 308
+    price: 84.50
+- model: root.rate
+  pk: 765
+  fields:
+    weight: 26
+    service_level: 2
+    zone_number: 308
+    price: 87.05
+- model: root.rate
+  pk: 766
+  fields:
+    weight: 27
+    service_level: 2
+    zone_number: 308
+    price: 89.75
+- model: root.rate
+  pk: 767
+  fields:
+    weight: 28
+    service_level: 2
+    zone_number: 308
+    price: 92.60
+- model: root.rate
+  pk: 768
+  fields:
+    weight: 29
+    service_level: 2
+    zone_number: 308
+    price: 95.55
+- model: root.rate
+  pk: 769
+  fields:
+    weight: 30
+    service_level: 2
+    zone_number: 308
+    price: 98.25
+- model: root.rate
+  pk: 770
+  fields:
+    weight: 31
+    service_level: 2
+    zone_number: 308
+    price: 100.95
+- model: root.rate
+  pk: 771
+  fields:
+    weight: 32
+    service_level: 2
+    zone_number: 308
+    price: 103.80
+- model: root.rate
+  pk: 772
+  fields:
+    weight: 33
+    service_level: 2
+    zone_number: 308
+    price: 106.55
+- model: root.rate
+  pk: 773
+  fields:
+    weight: 34
+    service_level: 2
+    zone_number: 308
+    price: 109.80
+- model: root.rate
+  pk: 774
+  fields:
+    weight: 35
+    service_level: 2
+    zone_number: 308
+    price: 112.45
+- model: root.rate
+  pk: 775
+  fields:
+    weight: 36
+    service_level: 2
+    zone_number: 308
+    price: 115.00
+- model: root.rate
+  pk: 776
+  fields:
+    weight: 37
+    service_level: 2
+    zone_number: 308
+    price: 117.55
+- model: root.rate
+  pk: 777
+  fields:
+    weight: 38
+    service_level: 2
+    zone_number: 308
+    price: 119.80
+- model: root.rate
+  pk: 778
+  fields:
+    weight: 39
+    service_level: 2
+    zone_number: 308
+    price: 122.15
+- model: root.rate
+  pk: 779
+  fields:
+    weight: 40
+    service_level: 2
+    zone_number: 308
+    price: 124.35

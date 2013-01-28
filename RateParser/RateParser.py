@@ -13,7 +13,7 @@ def print_results_as_yaml(results, arguments):
         print "  pk: " + str(arguments.pk + counter)
         print "  fields:"
         print "    weight: " + rate['weight']
-        print "    service_level: " + arguments.service
+        print "    service_level: " + str(arguments.service)
         print "    zone_number: " + rate['zone']
         print "    price: " + rate['rate']
 
@@ -51,7 +51,7 @@ def parse_page(lines, results):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="RateParser")
     parser.add_argument("file")
-    parser.add_argument('-s', '--service', action="store", help="Service level", required=True)
+    parser.add_argument('-s', '--service', action="store", type=int, help="Service level id", required=True)
     parser.add_argument('-p', '--pk', action="store", default=1, type=int, help="Start value for primary key")
     args = parser.parse_args()
     primary_key_start = 1

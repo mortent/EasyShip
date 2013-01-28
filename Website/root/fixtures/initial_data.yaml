@@ -18,17 +18,4 @@
     zip_code: 10002
     service_level: 1
     zone_number: 103
-- model: root.rate
-  pk: 1
-  fields:
-    weight: 1
-    service_level: 1
-    zone_number: 102
-    price: 2
-- model: root.rate
-  pk: 2
-  fields:
-    weight: 1
-    service_level: 1
-    zone_number: 103
-    price: 3
+

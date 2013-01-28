@@ -1,7 +1,7 @@
 import unittest
 import RateParser as RateParser
 import Utils as Utils
-import EvenPageRateParser as EvenPageRateParser
+import PageRateParser as PageRateParser
 
 class TestRateParser(unittest.TestCase):
 
@@ -17,13 +17,6 @@ class TestRateParser(unittest.TestCase):
     def testShouldHandleNewLines(self):
         self.assertFalse(RateParser.is_line_start_of_new_page("\n"))
 
-    def testShouldReturnPageNumber(self):
-        self.assertEquals(21, RateParser.get_page_number("NEW_PAGE 21\n"))
-
-    def test_should_fail_when_there_are_no_page_number(self):
-        with self.assertRaises(Utils.ParseError):
-            RateParser.get_page_number("NEW_PAGE")
-
     def test_should_detect_line_with_only_newline(self):
         self.assertTrue(Utils.is_only_newline("\n"))
 
@@ -37,13 +30,16 @@ class TestRateParser(unittest.TestCase):
         self.assertEquals("12310", Utils.strip_non_digit_characters("!123.10$"))
 
     def test_should_identify_weight_columns_starting_with_Zones(self):
-        self.assertTrue(EvenPageRateParser.is_weight_column("Zones"))
+        self.assertTrue(PageRateParser.is_weight_column("Zones"))
 
     def test_should_reject_columns_with_extra_text_in_addition_to_Zones(self):
-        self.assertFalse(EvenPageRateParser.is_weight_column("Zones 123"))
+        self.assertFalse(PageRateParser.is_weight_column("Zones 123"))
 
     def test_should_identify_letter_weights(self):
-        self.assertTrue(EvenPageRateParser.is_letter_weight("Letter*"))
+        self.assertTrue(PageRateParser.is_letter_weight("Letter*"))
+
+    def test_should_remove_leading_and_trailing_characters_from_price(self):
+        self.assertEquals("123.23", Utils.clean_price_string("$123.23"))
 
 if __name__ == '__main__':
     unittest.main()

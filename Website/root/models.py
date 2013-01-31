@@ -19,13 +19,13 @@ class Zone(models.Model):
 
 
 class Rate(models.Model):
-    weight = models.IntegerField()
+    weight = models.CharField(max_length=10)
     service_level = models.ForeignKey(ServiceLevel)
     zone_number = models.CharField(max_length=3)
     price = models.FloatField()
 
     def __unicode__(self):
-        return "Weight: " + str(self.weight) + ", Service level: " + self.service_level.name + ", Zone: " + str(self.zone_number)
+        return "Weight: " + self.weight + ", Service level: " + self.service_level.name + ", Zone: " + self.zone_number
 
 
 class Shipment(models.Model):

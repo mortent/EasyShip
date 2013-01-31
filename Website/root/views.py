@@ -29,7 +29,7 @@ def find_rate(form):
 
 def find_zone(form):
     zone_query_set = Zone.objects.filter(service_level=form.cleaned_data['service_level'],
-        zip_code=form.cleaned_data['zip_code'])
+        zip_code=form.cleaned_data['zip_code'][:3])
     if not zone_query_set:
         return None
     return zone_query_set[0]

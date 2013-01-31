@@ -6,16 +6,19 @@
   pk: 2
   fields:
     name: 3 Day Select
-- model: root.zone
-  pk: 1
+- model: root.servicelevel
+  pk: 3
   fields:
-    zip_code: 10001
-    service_level: 1
-    zone_number: 102
-- model: root.zone
-  pk: 2
+    name: 2nd Day Air
+- model: root.servicelevel
+  pk: 4
   fields:
-    zip_code: 10002
-    service_level: 1
-    zone_number: 103
-
+    name: 2nd Day Air A.M.
+- model: root.servicelevel
+  pk: 5
+  fields:
+    name: Next Day Air Saver
+- model: root.servicelevel
+  pk: 6
+  fields:
+    name: Next Day Air

@@ -14,7 +14,7 @@ def print_results_as_yaml(results, arguments):
         print "  fields:"
         print "    weight: " + rate['weight']
         print "    service_level: " + str(arguments.service)
-        print "    zone_number: " + rate['zone']
+        print "    zone_number: " + rate['zone'].zfill(3)
         print "    price: " + rate['rate']
 
 
@@ -38,6 +38,7 @@ def parse_lines(file, results):
     else:
         parse_page(line_accumulator, results)
 
+
 def is_line_start_of_new_page(line):
     return re.match("^NEW_PAGE.*", line)
 
@@ -54,5 +55,4 @@ if __name__ == '__main__':
     parser.add_argument('-s', '--service', action="store", type=int, help="Service level id", required=True)
     parser.add_argument('-p', '--pk', action="store", default=1, type=int, help="Start value for primary key")
     args = parser.parse_args()
-    primary_key_start = 1
     parse_file(args)

@@ -17,10 +17,15 @@ class TodayOrLaterDateField(forms.DateField):
     }
     default_validators = [validators.validate_date_today_or_later]
 
+class WeightField(forms.CharField):
+    default_error_messages = {
+        'invalid': _('Enter a valid weight'),
+        }
+    default_validators = [validators.validate_weight]
 
 class SearchForm(forms.Form):
     zip_code = ZipcodeField(max_length=5, min_length=5)
-    weight = forms.CharField(max_length=2, min_length=1)
+    weight = WeightField(max_length=6, min_length=1)
     service_level = forms.ModelMultipleChoiceField(queryset=ServiceLevel.objects.all())
     shipping_date = TodayOrLaterDateField()
 

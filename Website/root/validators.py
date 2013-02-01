@@ -3,6 +3,9 @@ from django.core import exceptions
 from django.utils.translation import ugettext_lazy as _
 
 def validate_zipcode(value):
+    """
+    Validates that value is a zipcode
+    """
     DIGITS = [str(x) for x in range(0,10)]
     for char in value:
         if char in DIGITS:
@@ -16,6 +19,9 @@ def validate_date_today_or_later(value):
 
 
 def validate_weight(value):
+    """
+    Validate that value is either "letter" or a number between 1 and 40
+    """
     if value.lower() == "letter":
         return
     if not value.isdigit() or int(value) < 1 or int(value) > 40:

@@ -24,6 +24,9 @@ class WeightField(forms.CharField):
     default_validators = [validators.validate_weight]
 
 class SearchForm(forms.Form):
+    """
+    SearchForm to collect the search parameters for our search page. It uses custom Fields with custom validators.
+    """
     zip_code = ZipcodeField(max_length=5, min_length=5)
     weight = WeightField(max_length=6, min_length=1)
     service_level = forms.ModelMultipleChoiceField(queryset=ServiceLevel.objects.all())

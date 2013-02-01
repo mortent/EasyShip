@@ -3,6 +3,10 @@ from root.models import ServiceLevel, Zone, Rate
 from root.forms import SearchForm
 
 def search(request):
+    """
+    Uses the submit parameter from the submit button in the page to distinquiush between a new request and a
+    search request. Since it is a search function with no state change to the application we use GET rather than POST.
+    """
     rate = None
     is_submit = request.GET.has_key('submit')
     if is_submit:
@@ -17,6 +21,9 @@ def search(request):
 
 
 def find_rate(form):
+    """
+    Looks up a rate from the database by first finding the correct zone with the find_zone method.
+    """
     zone = find_zone(form)
     if zone is None:
         return None
@@ -28,6 +35,9 @@ def find_rate(form):
 
 
 def find_zone(form):
+    """
+    Look up a zone from the database. There can only be 0 or 1 rows in the result set.
+    """
     zone_query_set = Zone.objects.filter(service_level=form.cleaned_data['service_level'],
         zip_code=form.cleaned_data['zip_code'][:3])
     if not zone_query_set:

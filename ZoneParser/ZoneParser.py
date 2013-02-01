@@ -15,6 +15,9 @@ def open_file(path):
 
 
 def print_results_as_yaml(results):
+    """
+    Print the results as YAML to stdout.
+    """
     for (counter, zone) in enumerate(results):
         print "- model: root.zone"
         print "  pk: " + str(counter + 1)
@@ -31,6 +34,9 @@ def parse_file(arguments):
 
 
 def parse_lines(file):
+    """
+    Parses the file line for line and collects the data in the results list.
+    """
     results = []
     for line in file:
         if not line or line.startswith("ZIP"):
@@ -48,12 +54,15 @@ def parse_lines(file):
 
 
 def split_zip_code(string):
+    """
+    Splits the zip codes based on the hyphen. If there is only one zip-code, it is returned in both elements of the table.
+    """
     values = string.split('-')
     if len(values) < 2:
         return [values[0],values[0]]
     return values
 
-
+# Main entry point. Uses argparse to collect command line arguments.
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="ZoneParser")
     parser.add_argument("file")

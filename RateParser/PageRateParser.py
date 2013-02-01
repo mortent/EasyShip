@@ -2,6 +2,9 @@ import re
 import Utils as Utils
 
 def parse_page(lines, results):
+    """
+    Find each column and identify if it is a column of weights or rates.
+    """
     weights = None
     column = []
     for line in lines:
@@ -18,6 +21,9 @@ def parse_page(lines, results):
 
 
 def parse_data_rate_column(column, weights, results):
+    """
+    Parse a column of rates and connect them to the correct column.
+    """
     zone = Utils.strip_non_digit_characters(column[0])
     for (counter, line) in enumerate(column[1:]):
         weight = weights[counter]
@@ -26,6 +32,9 @@ def parse_data_rate_column(column, weights, results):
 
 
 def parse_weight_column(column):
+    """
+    Parse a column of weights and put them into a datastructure to be used by parse_data_rate_column
+    """
     weights = []
     for line in column:
         if is_letter_weight(line):

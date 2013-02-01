@@ -16,7 +16,7 @@ def validate_date_today_or_later(value):
 
 
 def validate_weight(value):
-    if value.lower() is "letter":
+    if value.lower() == "letter":
         return
     if not value.isdigit() or int(value) < 1 or int(value) > 40:
         raise exceptions.ValidationError(_("Weight must be a number between 1 and 40 or 'Letter'"))
